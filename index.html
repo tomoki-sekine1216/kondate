@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            献立
+        </title>
+    </head>
+    <body>
+        <p>
+            <span>
+                今日の献立は
+            </span>
+            <div class = "a">
+                ???
+            </div>
+            <br>
+            <div class = "b">
+                です！
+            </div>    
+
+        </p>
+
+        <style>
+            html{
+                background-color: black;
+            }
+
+            p{
+                color: white;
+                font-size: 180px;
+            }
+
+            .a{
+                color: crimson;
+                font-size: 240px;
+            }
+
+            .b{
+                color: white;
+                font-size: 180px;
+            }
+        </style>
+
+        <script>
+            const diva = document.querySelector('.a');
+            let random = Math.floor(Math.random() * 43 + 1);
+            switch (random) {
+                case 1:
+                    diva.textContent = 'カレー'; 
+                    break;  
+                case 2:
+                    diva.textContent = 'シチュー';
+                    break;            
+                case 3:
+                    diva.textContent = '唐揚げ';
+                    break;            
+                case 4:
+                    diva.textContent = 'ハンバーグ';
+                    break;            
+                case 5:
+                    diva.textContent = 'カツ';
+                    break;            
+                case 6:
+                    diva.textContent = '焼き魚';
+                    break;            
+                case 7:
+                    diva.textContent = 'ぶり大根';
+                    break;            
+                case 8:
+                    diva.textContent = '肉じゃが';
+                    break;            
+                case 9:
+                    diva.textContent = 'チンジャオロース';
+                    break;            
+                case 10:
+                    diva.textContent = 'ルーローハン';
+                    break;            
+                case 11:
+                    diva.textContent = '餃子';
+                    break;            
+                case 12:
+                    diva.textContent = 'ドリア';
+                    break;            
+                case 13:
+                    diva.textContent = '煮物';
+                    break;            
+                case 14:
+                    diva.textContent = 'スパゲッティ';
+                    break;            
+                case 15:
+                    diva.textContent = 'ピザ';
+                    break;            
+                case 16:
+                    diva.textContent = 'おにぎり';
+                    break;            
+                case 17:
+                    diva.textContent = 'お寿司';
+                    break;            
+                case 18:
+                    diva.textContent = '焼肉';
+                    break;            
+                case 19:
+                    diva.textContent = 'しゃぶしゃぶ';
+                    break;            
+                case 20:
+                    diva.textContent = '鍋';
+                    break;            
+                case 21:
+                    diva.textContent = '湯豆腐';
+                    break;            
+                case 22:
+                    diva.textContent = '豚肉の生姜焼き';
+                    break;            
+                case 23:
+                    diva.textContent = '野菜炒め';
+                    break;            
+                case 24:
+                    diva.textContent = 'そば';
+                    break;            
+                case 25:
+                    diva.textContent = 'うどん';
+                    break;            
+                case 26:
+                    diva.textContent = 'ホットケーキ';
+                    break;            
+                case 27:
+                    diva.textContent = '食パン';
+                    break;            
+                case 28:
+                    diva.textContent = 'ラーメン';
+                    break;            
+                case 29:
+                    diva.textContent = 'フレンチトースト';
+                    break;            
+                case 30:
+                    diva.textContent = 'ハンバーガー';
+                    break;            
+                case 31:
+                    diva.textContent = 'サンドイッチ';
+                    break;            
+                case 32:
+                    diva.textContent = 'お餅';
+                    break;            
+                case 33:
+                    diva.textContent = 'ステーキ';
+                    break;            
+                case 34:
+                    diva.textContent = 'オムレツ';
+                    break;            
+                case 35:
+                    diva.textContent = 'オムライス';
+                    break;            
+                case 36:
+                    diva.textContent = '焼きそば';
+                    break;            
+                case 37:
+                    diva.textContent = 'チャーハン';
+                    break;            
+                case 38:
+                    diva.textContent = 'ムニエル';
+                    break;            
+                case 39:
+                    diva.textContent = 'そうめん';
+                    break;            
+                case 40:
+                    diva.textContent = 'きんぴらごぼう';
+                    break;            
+                case 41:
+                    diva.textContent = 'キムチ炒め';
+                    break;            
+                case 42:
+                    diva.textContent = '海苔ご飯';
+                    break;            
+                case 43:
+                    diva.textContent = '炊き込みご飯';
+                    break;
+                default:
+                    diva.textContent = 'error';            
+            }
+        </script>
+
+    </body>
+</html>
